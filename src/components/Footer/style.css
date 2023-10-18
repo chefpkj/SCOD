@@ -1,0 +1,9 @@
+.img_wrapper{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    /* align-items: flex-end; */
+    
+        
+}
+

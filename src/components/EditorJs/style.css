@@ -1,0 +1,14 @@
+/* This is EditorBlock */
+
+.Savebutton_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+
+.saveButton{
+    margin: 40px;
+}

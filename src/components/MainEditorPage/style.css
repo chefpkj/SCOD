@@ -1,0 +1,24 @@
+.mainBodyWapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.writing_kid_wrapper{
+    position: absolute;
+    /* margin-left: 700px; */
+    margin-left: 45vw;
+    margin-top: -69px;
+}
+.Savebutton_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+
+.saveButton{
+    margin: 40px;
+}

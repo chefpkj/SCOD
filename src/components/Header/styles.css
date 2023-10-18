@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .spinner {
+    width: 7em;
+    height: 7em;
+    margin: 0 2em;
+    cursor: pointer;
+    position: relative;
+    float: left;
+  }
+  
+ 
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .level {
+    width: 7em;
+    height: 7em;
+    border: 8px dotted black;
+    border-right-color: #FDFCFC;
+    border-bottom-color: #FDFCFC;
+    border-radius: 50%;
+    animation: rotateAnimation 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite; /* Adjust the duration and timing function as needed */
+    transform: translateZ(0);
+    
+    
+  }
+  
+  
+  .fullie, .halfie {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+  }
+  
+  .fullie {
+    width: 6em;
+    height: 6em;
+    /* background: rgb(34,0,13); */
+background: inherit;
+    border-radius: 6em;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-top: -3em;
+    margin-left: -3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  
+  
+  .spinner:hover .level {
+    transform: rotate(225deg);
+  }
+ 
+
+
+ 
