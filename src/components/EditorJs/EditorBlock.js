@@ -3,8 +3,6 @@
   import "./style.css";
   import ImageTool from '@editorjs/image';
   // my mui components
-  import Button from '@material-ui/core/Button';
-  import SaveIcon from '@material-ui/icons/Save';
   import DragDrop from 'editorjs-drag-drop';
 
 
@@ -52,7 +50,7 @@
     return (
       <>
         <div className='Savebutton_wrapper'>
-          <Button variant="contained" color="default" size="small" className='saveButton' onClick={onSave} startIcon={<SaveIcon />}>Save</Button>
+          <button type='button' variant="contained" color="default" size="small" className='saveButton' onClick={onSave} >Save</button>
         </div>
         
         <div id='editorJs' style={{ height: "88vh" }}>
